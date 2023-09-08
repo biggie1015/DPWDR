@@ -1,0 +1,30 @@
+﻿
+@using DPWDR.Technical.Interview.Data.Entities
+@model List<Product>
+
+@if (Model != null)
+{
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Title</th>
+
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var item in Model)
+            {
+                        <tr>
+                            <td>@item.Id</td>
+                            <td>@item.Title</td>
+
+                        </tr>
+            }
+            </tbody>
+        </table>
+}
+else
+{
+        <p>No hay datos disponibles.</p>
+}
