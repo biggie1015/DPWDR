@@ -79,7 +79,7 @@ namespace DPWDR.Technical.Interview.Data.Repositories
             }
         }
 
-        public async Task<bool> UpdateStockIfZeroAsync(int productId, int newStock)
+        public async Task<string> UpdateStockIfZeroAsync(int productId, int newStock)
         {
             try
             {
@@ -90,11 +90,11 @@ namespace DPWDR.Technical.Interview.Data.Repositories
                 {
                     product.Stock = newStock;
                     await _dbContext.SaveChangesAsync();
-                    return true;
+                    return $"El producto {product.Id}, se ha actualizado el stock {product.Stock}";
                 }
                 else
                 {
-                    return false;
+                    return $"El producto {productId} no se puede actualizar.";
                 }
             }
             catch (Exception ex)

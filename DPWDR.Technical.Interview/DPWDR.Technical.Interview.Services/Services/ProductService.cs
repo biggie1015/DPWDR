@@ -36,7 +36,7 @@ namespace DPWDR.Technical.Interview.Services.Services
             return await _productRepository.ProductExistsAsync(productId);
         }
 
-        public async Task<bool> UpdateStockIfZero(int productId, int newStock)
+        public async Task<string> UpdateStockIfZero(int productId, int newStock)
         {
             return await _productRepository.UpdateStockIfZeroAsync(productId, newStock);
         }
