@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPWDR.Technical.Interview.Data", "DPWDR.Technical.Interview.Data\DPWDR.Technical.Interview.Data.csproj", "{7A117F15-9A47-4958-8B4A-D313ECA56447}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A117F15-9A47-4958-8B4A-D313ECA56447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A117F15-9A47-4958-8B4A-D313ECA56447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A117F15-9A47-4958-8B4A-D313ECA56447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A117F15-9A47-4958-8B4A-D313ECA56447}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79FD9754-029B-40B1-ABA9-87DC666B0215}
+	EndGlobalSection
+EndGlobal
