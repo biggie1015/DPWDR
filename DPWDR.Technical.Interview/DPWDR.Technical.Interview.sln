@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPWDR.Technical.Interview.Data", "DPWDR.Technical.Interview.Data\DPWDR.Technical.Interview.Data.csproj", "{7A117F15-9A47-4958-8B4A-D313ECA56447}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPWDR.Technical.Interview.Services", "DPWDR.Technical.Interview.Services\DPWDR.Technical.Interview.Services.csproj", "{9F483BD4-7411-4E5B-A04F-7FAA085F6829}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DPWDR.Technical.Interview.API", "DPWDR.Technical.Interview.API\DPWDR.Technical.Interview.API.csproj", "{F76684D0-EC2A-4400-8C0C-FCF5576BE1CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{7A117F15-9A47-4958-8B4A-D313ECA56447}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A117F15-9A47-4958-8B4A-D313ECA56447}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A117F15-9A47-4958-8B4A-D313ECA56447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F483BD4-7411-4E5B-A04F-7FAA085F6829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F483BD4-7411-4E5B-A04F-7FAA085F6829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F483BD4-7411-4E5B-A04F-7FAA085F6829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F483BD4-7411-4E5B-A04F-7FAA085F6829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F76684D0-EC2A-4400-8C0C-FCF5576BE1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F76684D0-EC2A-4400-8C0C-FCF5576BE1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F76684D0-EC2A-4400-8C0C-FCF5576BE1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F76684D0-EC2A-4400-8C0C-FCF5576BE1CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
