@@ -1,18 +1,13 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DPWDR.Technical.Interview.Services.Services
 {
     public class SchedulerService : IHostedService, IDisposable
     {
+        //private readonly ProductService _productService;
         private Timer _timer;
         private readonly IServiceProvider _serviceProvider;
-        private readonly ProductService _productService;
         private readonly double _intervalInMinutes = 1;
 
         public SchedulerService(IServiceProvider serviceProvider)
@@ -50,7 +45,7 @@ namespace DPWDR.Technical.Interview.Services.Services
             }
             catch (Exception ex)
             {
-                // Maneja las excepciones aquí
+                throw;
             }
         }
 

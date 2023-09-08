@@ -9,9 +9,6 @@ namespace DPWDR.Technical.Interview.Services.MappingProfiles
         public ProductProfile()
         {
             CreateMap<ProductDTO, Product>();
-        
-
-
         }
     }
 }
